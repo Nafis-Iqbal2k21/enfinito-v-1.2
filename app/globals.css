@@ -479,12 +479,25 @@ ul.timeline>li {
   background-color: #1C2741;
 }
 
-.case-img{
+.case-img {
   height: 280px;
   width: 100%;
-  transition: transform  .5s ease;
-  
+  transition: transform .5s ease;
+
 }
-.case-img:hover{
+
+.case-img:hover {
   transform: scale(1.1);
+}
+
+.contact-box {
+  border-radius: 20px;
+  border: 2px solid rgba(10, 13, 23, 0.05);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(190px);
+}
+
+.contact-btn {
+  border-radius: 5px;
+  background: linear-gradient(90deg, #1F56DF, #87A9FF);
 }

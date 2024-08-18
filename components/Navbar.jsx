@@ -22,7 +22,7 @@ function Navbar() {
                             <Link className="nav-link text-white" aria-current="page" href="/services">Services</Link>
                         </li>
                         <li className="nav-item nav-btn text-center mx-2">
-                            <Link className="nav-link text-white" aria-current="page" href="#">Portfolio</Link>
+                            <Link className="nav-link text-white" aria-current="page" href="/portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item nav-btn text-center mx-2">
                             <Link className="nav-link text-white" aria-current="page" href="/careers">Careers</Link>
@@ -31,7 +31,7 @@ function Navbar() {
                             <Link className="nav-link text-white" aria-current="page" href="/blog">Blog</Link>
                         </li>
                     </ul>
-                    <button className="btn btn-outline-light fw-bold border-2 px-3 text-center">Let's Talk</button>
+                    <Link className="btn btn-outline-light fw-bold border-2 px-3 text-center" href={'/contact'}>Let's Talk</Link>
                 </div>
             </div>
         </nav>
