@@ -1,11 +1,12 @@
 import React from 'react'
+import Chart from './Chart'
 import { NumberTransition } from './NumberTransition';
 
 function Statistics() {
     return (
         <div className='container my-5'>
             <div className="col-12 my-2 mx-2">
-                <img src="/assets/images/graph.png" alt="graph" className='img-fluid' />
+                 <Chart />
             </div>
             <div className="d-flex gap-4 mx-auto flex-wrap justify-content-center">
                 <div className="mx-auto count-up-card">
@@ -16,7 +17,7 @@ function Statistics() {
                 </div>
                 <div className="mx-auto count-up-card">
                     <div className='d-flex justify-content-center align-items-center flex-column'>
-                        <NumberTransition end={96} suffix="+"  enableScrollSpy duration={3} />
+                        <NumberTransition end={96} suffix="+" enableScrollSpy duration={3} />
                         <p className="count-up-card-title">Happy Clients</p>
                     </div>
                 </div>

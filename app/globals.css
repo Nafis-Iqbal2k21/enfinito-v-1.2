@@ -517,7 +517,25 @@ ul.timeline>li {
 .job-bg {
   background-color: #1F56DF;
 }
+
 .job-card {
   background-color: #1C1C21;
   opacity: 0.9;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+.radial-chart {
+  background-color: #101012;
+  border: 1px solid #1C1C21;
+}
+
+.chart-img {
+  height: 260px;
+}
+
+.img-radius {
+  border-radius: 50% 50% 15px 0;
 }
