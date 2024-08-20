@@ -6,7 +6,7 @@ function Statistics() {
     const DynamicChart = dynamic(
         () => import('./Chart'),
         { ssr: false }
-      )
+    )
     return (
         <div className='container my-5'>
             <div className="col-12 my-2 mx-2">
