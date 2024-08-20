@@ -106,22 +106,22 @@ function Chart() {
   return (
     <div className='container' >
       <div className="row">
-        <div className="col-12 col-md-7">
-          <div className="row  rounded-4  radial-chart">
-            <div className="col-5">
+        <div className="col-12 col-md-7 mb-4">
+          <div className="row  rounded-4  radial-chart w-100">
+            <div className="col-12 col-md-5">
               <p className="fs-4 text-white">Projects summary</p>
               <div id="chart">
                 <ReactApexChart options={radialChartState.options} series={radialChartState.series} type="radialBar" height={250} />
               </div>
             </div>
             <div className="col-1"></div>
-            <div className="col-6 p-0 chart-img">
+            <div className="col-md-6 d-none  d-md-flex p-0 chart-img">
               <img src="assets/images/web.png" alt="chart-img" className='img-fluid h-100 rounded-bottom-end-4 img-radius' />
             </div>
           </div>
         </div>
         <div className="col-12 col-md-5">
-          <div className="row radial-chart rounded-4 ms-2 me-1">
+          <div className="row radial-chart rounded-4 ms-md-2 me-md-1 me-2 mb-4">
             <div className="col-9">
               <div id="chart">
                 <ReactApexChart options={barChartState.options} series={barChartState.series} type="bar" height={245} />
