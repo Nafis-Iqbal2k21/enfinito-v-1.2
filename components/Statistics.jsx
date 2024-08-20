@@ -1,12 +1,16 @@
 import React from 'react'
-import Chart from './Chart'
+import dynamic from 'next/dynamic'
 import { NumberTransition } from './NumberTransition';
 
 function Statistics() {
+    const DynamicChart = dynamic(
+        () => import('./Chart'),
+        { ssr: false }
+      )
     return (
         <div className='container my-5'>
             <div className="col-12 my-2 mx-2">
-                 <Chart />
+                 <DynamicChart />
             </div>
             <div className="d-flex gap-4 mx-auto flex-wrap justify-content-center">
                 <div className="mx-auto count-up-card">

@@ -8,7 +8,7 @@ function CaseStudyCard({ otherClassName, url, title, alt, description, link }) {
         <div className="case-content rounded-4">
           <div className='position-relative mx-auto'>
             <img src={url} alt={alt} className='img-fluid rounded-top-4 case-img' />
-            <span class="position-absolute top-0 start-0 m-2 rounded-pill border border-1 px-3 py-1">Case Study</span>
+            <span className="position-absolute top-0 start-0 m-2 rounded-pill border border-1 px-3 py-1">Case Study</span>
           </div>
           <h5 className='card-title p-3 pb-0'>{title}</h5>
           <p className='card-text p-3'>{description}</p>
