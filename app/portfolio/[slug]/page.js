@@ -2,6 +2,11 @@ import MeetingChat from '@/components/MeetingChat';
 import SingleCaseStudy from '@/components/porfolio/SingleCaseStudy';
 import React from 'react'
 
+
+export function generateStaticParams() {
+    return [{ slug: 'ntho24' }]
+}
+
 function page() {
     const caseStudyData = [
         {

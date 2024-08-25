@@ -11,33 +11,33 @@ function CaseStudy() {
             description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
             image: "/assets/images/web.png",
             alt: "ntho24",
-            otherClassName: "col-md-4"
-        },
-        {
-            title: "National Talent Hunt Odyssey 2024",
-            link: "",
-            slug: "ntho24",
-            description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
-            image: "/assets/images/web.png",
-            alt: "ntho24",
-            otherClassName: "col-md-4"
-        },
-        {
-            title: "National Talent Hunt Odyssey 2024",
-            link: "",
-            slug: "ntho24",
-            description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
-            image: "/assets/images/web.png",
-            alt: "ntho24",
-            otherClassName: "col-md-4"
-        },
-        {
-            title: "National Talent Hunt Odyssey 2024",
-            slug: "ntho24",
-            description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
-            image: "/assets/images/web.png",
-            alt: "ntho24",
             otherClassName: "col-md-7"
+        },
+        {
+            title: "National Talent Hunt Odyssey 2024",
+            link: "",
+            slug: "ntho24",
+            description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
+            image: "/assets/images/web.png",
+            alt: "ntho24",
+            otherClassName: "col-md-5"
+        },
+        {
+            title: "National Talent Hunt Odyssey 2024",
+            link: "",
+            slug: "ntho24",
+            description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
+            image: "/assets/images/web.png",
+            alt: "ntho24",
+            otherClassName: "col-md-4"
+        },
+        {
+            title: "National Talent Hunt Odyssey 2024",
+            slug: "ntho24",
+            description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the nation’s premier educational institutions ...",
+            image: "/assets/images/web.png",
+            alt: "ntho24",
+            otherClassName: "col-md-4"
         },
         {
             title: "National Talent Hunt Odyssey 2024",
@@ -46,7 +46,7 @@ function CaseStudy() {
             description: "Sena Public School & College, located in Savar Cantonment, Dhaka, stands out as one of the  ...",
             image: "/assets/images/web.png",
             alt: "ntho24",
-            otherClassName: "col-md-5"
+            otherClassName: "col-md-4"
         }
 
     ]
@@ -71,7 +71,7 @@ function CaseStudy() {
                         />)
                 }
             </div>
-            <div className='d-flex justify-content-center'>
+            <div className='d-flex justify-content-center mt-4'>
                 <Link href={'/portfolio'} className='btn btn-light'>View More</Link>
             </div>
         </div>

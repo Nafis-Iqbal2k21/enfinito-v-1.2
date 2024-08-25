@@ -7,6 +7,20 @@ import Slider from '@/components/Slider';
 import { redirect } from 'next/navigation';
 import React from 'react'
 
+
+export function generateStaticParams() {
+  return [
+    { slug: 'graphic-motion-designo24' },
+    { slug: 'web-design-development' },
+    { slug: 'ui-ux-design' },
+    { slug: 'search-engine-optimization' },
+    { slug: 'digital-marketing' },
+    { slug: 'product-photography' },
+    { slug: 'advertising-tvc-ovc' },
+    { slug: 'company-automation-solution' }
+  ]
+}
+
 function page({ params }) {
   const servicesInfoData = [
     {

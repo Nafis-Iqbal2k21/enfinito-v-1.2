@@ -3,7 +3,7 @@ const TabsButton = ({ item, handleTab, currentTab }) => {
       <div className="p-1">
         <button
           className={`btn  w-100 ${
-            item.id === currentTab ? "btn-light" : "btn-outline-light"
+            item.id === currentTab ? "btn-primary" : "btn-outline-light"
           }`}
           onClick={() => handleTab(item.id)}
         >

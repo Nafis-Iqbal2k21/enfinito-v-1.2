@@ -13,7 +13,7 @@ function FounderMessage() {
                     <div className="row p-5 d-flex justify-content-center align-items-center" >
                         <div className="col-12 col-md-4 mb-4 text-center">
                             <div className="my-auto mx-auto">
-                                <Image height={250} width={200} className='rounded-4' src="/assets/images/founder.png" alt='image of founder' />
+                                <img height={250} width={200} className='rounded-4' src="/assets/images/founder.png" alt='image of founder' />
                             </div>
                         </div>
                         <div className="col-12 col-md-8">

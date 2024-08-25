@@ -9,10 +9,10 @@ function ServicesCard({ title, description, src, alt, slug }) {
         <div className="card-body card services-card">
           <div className="card-img">
             <div className="services-card-img" >
-              <Image height={200} width={300} className='w-100 h-100' src={src} alt={alt} />
+              <img height={200} width={300} className='w-100 h-100 rounded-2' src={src} alt={alt} />
             </div>
           </div>
-          <h5 className="fs-6 mt-3 py-3">{title}</h5>
+          <h5 className="fs-6 mt-3 py-3 text-center">{title}</h5>
           {/* <p className='card-text'>{description}</p> */}
           <Link href={`/services/${slug}`} className='btn btn-outline-light w-full mt-auto'>Learn More</Link>
         </div>

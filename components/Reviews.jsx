@@ -55,7 +55,7 @@ function Reviews() {
             <div className='mx-auto'>
                 <Swiper
                     spaceBetween={10}
-                    // centeredSlides={true}
+                    centeredSlides={true}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
@@ -67,15 +67,15 @@ function Reviews() {
                     breakpoints={{
                         640: {
                             slidesPerView: 1,
-                            spaceBetween: 20,
+                            spaceBetween: 10,
                         },
                         768: {
                             slidesPerView: 2,
-                            spaceBetween: 40,
+                            spaceBetween: 10,
                         },
                         1024: {
                             slidesPerView: 3,
-                            spaceBetween: 50,
+                            spaceBetween: 10,
                         },
                     }}
                     className="mySwiper"
@@ -86,10 +86,14 @@ function Reviews() {
                         reviewsData.map((data, index) => <SwiperSlide className='mb-3' key={index}>
                             <div className="mb-4 py-3">
                                 <div className='review-card d-flex flex-column align-items-center justify-content-center'>
-                                    <div className="client text-center">
-                                        <img src={data.imgUrl} alt={data.name} className='client-img ' />
-                                        <h6 className="card-title text-center py-2">{data.name}</h6>
-                                        <p className='d-flex fst-italic description-mini' style={{ color: "#A3A3A9" }}>{data.post}&nbsp;<a href="#" className='nav-link text-primary'> @{data.company}</a></p>
+                                    <div className="client  d-flex">
+                                        <div>
+                                            <img src={data.imgUrl} alt={data.name} className='client-img ' />
+                                        </div>
+                                        <div>
+                                            <h6 className="card-title px-3">{data.name}</h6>
+                                            <p className='d-flex fst-italic description-mini' style={{ color: "#A3A3A9" }}>{data.post}&nbsp;<a href="#" className='nav-link text-primary'> @{data.company}</a></p>
+                                        </div>
                                     </div>
                                     <p className="card-text text-center description-mini">{data.review}</p>
                                 </div>

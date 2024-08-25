@@ -51,9 +51,9 @@ function EmployeeBenefits() {
         {
           benefitsData.map((data, index) =>
           <div  className='col-12 col-md-4 mb-4' key={index}>
-            <div className="benefits-card p-3 h-100">
-                <h4 className="card-title mb-3">{data.title}</h4>
-                <p className='card-text '>{data.description}</p>
+            <div className="benefits-card p-3 h-100 rainbow">
+                <h4 className="card-title mb-3 fw-semibold fs-5">{data.title}</h4>
+                <p className='card-text fw-normal description-mini'>{data.description}</p>
             </div>
 
           </div>

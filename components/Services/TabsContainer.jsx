@@ -31,8 +31,8 @@ function TabsContainer({ serviceData }) {
                         )
                     }
                 </div>
-                <div className="col-12 col-md-4 mb-4">
-                    <Image
+                {/* <div className="col-12 col-md-4 mb-4">
+                    <img
                         src={selectedService.imageUrl}
                         alt={selectedService.title}
                         width={500}
@@ -41,15 +41,15 @@ function TabsContainer({ serviceData }) {
                         objectFit='cover'
                         layout="responsive"
                     />
-                </div>
-                <div className="col-12 col-md-5 mb-4">
+                </div> */}
+                <div className="col-12 col-md-8 mb-4">
                     <h2 className="mb-3">{selectedService.title}</h2>
                     <p>{selectedService.description}</p>
-                    <h4 className="heading-4 text-center">Our Features</h4>
-                    <ul className="list-group">
+                    <h4 className="h5 fw-semibold">Our Features</h4>
+                    <ul className="list">
                         {
                             selectedService.keyServices.map((data, index) =>
-                                <li key={index} className="list-group-item list-group-item-light text-white">{data.title} - {data.description}</li>
+                                <li key={index} className="list-group-item list-group-item-light text-white">{index+1}. {data.title} - {data.description}</li>
                             )
                         }
                     </ul>

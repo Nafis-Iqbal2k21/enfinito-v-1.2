@@ -14,32 +14,32 @@ function ChooseUs() {
                         <li>
                             <img src="/assets/icons/low.png" alt="low_price_icon" className='timeline-icon' />
                             <h5 className="card-title">1. Effective & Flexible Pricing</h5>
-                            <p className='description-mini'>As clients want their business have profit maximization with minimum costs, we help small and large business owners accomplish these goals with efficient and flexible pricing schemes. We offer to provide best outcomes at budget friendly rate.</p>
+                            <p className='description-mini m-0'>As clients want their business have profit maximization with minimum costs, we help small and large business owners accomplish these goals with efficient and flexible pricing schemes. We offer to provide best outcomes at budget friendly rate.</p>
                         </li>
                         <li>
                             <img src="/assets/icons/bedge.png" alt="bedge_icon" className='timeline-icon-bedge' />
                             <h5 className="card-title">2. Quality Assuranc</h5>
-                            <p className='description-mini'>We design to the ultimate creativity which can elaborate vision and leads to the authentic outcomes. Along we serve authentic design and the best digital marketing service to help businesses grow better everyday.</p>
+                            <p className='description-mini m-0'>We design to the ultimate creativity which can elaborate vision and leads to the authentic outcomes. Along we serve authentic design and the best digital marketing service to help businesses grow better everyday.</p>
                         </li>
                         <li>
                             <img src="/assets/icons/shield.png" alt="shield_icon" className='timeline-icon' />
                             <h5 className="card-title">3. Reliabilit</h5>
-                            <p className='description-mini'>We are highly valued as a trustworthy partner by our client. We help our clients to bring out their business growth, believe in our expertise & experience positively.</p>
+                            <p className='description-mini m-0'>We are highly valued as a trustworthy partner by our client. We help our clients to bring out their business growth, believe in our expertise & experience positively.</p>
                         </li>
                         <li>
                             <img src="/assets/icons/security.png" alt="security_icon" className='timeline-icon' />
                             <h5 className="card-title">4. Remote Service Accessibilit</h5>
-                            <p className='description-mini'>With remote support services, users can also resolve issues with consistent guidance from experts. As we offer remote services, we serve our clients anywhere in Bangladesh which can reduce organization's operational costs, workplace costs and so on.</p>
+                            <p className='description-mini m-0'>With remote support services, users can also resolve issues with consistent guidance from experts. As we offer remote services, we serve our clients anywhere in Bangladesh which can reduce organization's operational costs, workplace costs and so on.</p>
                         </li>
                         <li>
                             <img src="/assets/icons/group.png" alt="group_icon" className='timeline-icon' />
                             <h5 className="card-title">5. Passionate in-house Team</h5>
-                            <p className='description-mini'>Our team consists of highly professional designers with a diversity of skills and experience. Every member contributes positively to the company and is an asset to our clients because they are able to create client’s story visible throughout their works which help the organization reach its objectives.</p>
+                            <p className='description-mini m-0'>Our team consists of highly professional designers with a diversity of skills and experience. Every member contributes positively to the company and is an asset to our clients because they are able to create client’s story visible throughout their works which help the organization reach its objectives.</p>
                         </li>
                         <li>
                             <img src="/assets/icons/document.png" alt="document_icon" className='timeline-icon' />
                             <h5 className="card-title">6. Periodic Feedback & Reporting</h5>
-                            <p className='description-mini'>As a client of Enfinito, you are entitled to receive feedback and reports on a 24 hour basis. Work with Enfinito and feel the difference. Our senior designers and dedicated project managers are ready to provide their best.</p>
+                            <p className='description-mini m-0'>As a client of Enfinito, you are entitled to receive feedback and reports on a 24 hour basis. Work with Enfinito and feel the difference. Our senior designers and dedicated project managers are ready to provide their best.</p>
                         </li>
 
                     </ul>

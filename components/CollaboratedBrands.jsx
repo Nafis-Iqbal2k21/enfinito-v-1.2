@@ -5,100 +5,148 @@ function CollaboratedBrands() {
   const brandsData = [
     {
       url: "/assets/images/brands/aharika.png",
-      alt: "aharika"
+      alt: "aharika",
+      height: "70",
+      width: "100"
     },
     {
       url: "/assets/images/brands/bkash.png",
-      alt: "bkash"
+      alt: "bkash",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/brac.png",
-      alt: "brac"
+      alt: "brac",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/byte_dance.png",
-      alt: "byte_dance"
+      alt: "byte_dance",
+      height: "70",
+      width: "100"
     },
     {
       url: "/assets/images/brands/chicken_licken.png",
-      alt: "chicken_licken"
+      alt: "chicken_licken",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/coffee_time.png",
-      alt: "coffee_time"
+      alt: "coffee_time",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/expure.png",
-      alt: "expure"
+      alt: "expure",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/fabreflex.png",
-      alt: "fabreflex"
+      alt: "fabreflex",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/foodpanda.png",
-      alt: "foodpanda"
+      alt: "foodpanda",
+      height: "70",
+      width: "100"
     },
     {
       url: "/assets/images/brands/gentle_park.png",
-      alt: "gentle_park"
+      alt: "gentle_park",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/guerrilla_solutions.png",
-      alt: "guerrilla_solutions"
+      alt: "guerrilla_solutions",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/kidz_land.png",
-      alt: "kidz_land"
+      alt: "kidz_land",
+      height: "70",
+      width: "70"
     },
 
     {
       url: "/assets/images/brands/momo_mama.png",
-      alt: "momo_mama"
+      alt: "momo_mama",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/nom_nom.png",
-      alt: "nom_nom"
+      alt: "nom_nom",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/nori.png",
-      alt: "nori"
+      alt: "nori",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/paper_fly.png",
-      alt: "paper_fly"
+      alt: "paper_fly",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/rio_launge.png",
-      alt: "rio_launge"
+      alt: "rio_launge",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/royel_cuisine.png",
-      alt: "royel_cuisine"
+      alt: "royel_cuisine",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/shah_ali_farm.png",
-      alt: "shah_ali_farm"
+      alt: "shah_ali_farm",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/tos_host.png",
-      alt: "tos_host"
+      alt: "tos_host",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/upside_down.png",
-      alt: "upside_down"
+      alt: "upside_down",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/wasfi.png",
-      alt: "wasfi"
+      alt: "wasfi",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/ximi.png",
-      alt: "ximi"
+      alt: "ximi",
+      height: "70",
+      width: "70"
     },
     {
       url: "/assets/images/brands/ntho.png",
-      alt: "ntho24"
+      alt: "ntho24",
+      height: "70",
+      width: "70"
     },
   ]
   return (
@@ -107,7 +155,7 @@ function CollaboratedBrands() {
       <div className="container">
         <div className="row mb-5 pb-5 mx-auto">
           {
-            brandsData.map((data, index) => <Brand key={index} src={data.url} alt={data.alt} />)
+            brandsData.map((data, index) => <Brand key={index} src={data.url} alt={data.alt} height={data.height} width={data.width} />)
           }
         </div>
       </div>
