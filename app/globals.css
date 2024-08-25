@@ -155,7 +155,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -201,7 +201,7 @@ body {
 }
 
 .slider {
-  height: 150px;
+  height: 120px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -217,8 +217,8 @@ body {
 }
 
 .slide {
-  height: 160px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
 }
 
 @keyframes scroll {
@@ -585,7 +585,6 @@ ul.timeline>li {
   border: 1px solid #e3e3e7;
   border-radius: 15px;
 }
-
 
 .case-content {
   background-color: #111829;
