@@ -34,7 +34,7 @@ function Navbar() {
                             <Link className={`nav-link  ${pathname === '/blog' ? 'text-primary nav-active' : 'text-white'}`} aria-current="page" href="/blog">Blog</Link>
                         </li>
                     </ul>
-                    <Link className="btn btn-outline-light fw-bold border-2 px-3 text-center" href={'/contact'}>Let's Talk</Link>
+                    <Link className="btn btn-outline-light fw-bold border-2 px-3 text-center" href={'https://wa.me/8801540110050'}>Let's Talk</Link>
                 </div>
             </div>
         </nav>

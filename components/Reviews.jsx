@@ -40,7 +40,8 @@ function Reviews() {
         },
         {
             imgUrl: "/assets/images/founder.png",
-            name: "Saiful islam Shoeb",
+            name: "Saiful Islam", 
+            // Shoeb
             post: "Founder",
             company: "Kidz Land",
             review: "Kidz Land is happy with Enfinito's design and marketing support. Your efforts have helped improve our brand and boost our sales. We look forward to future collaborations."
@@ -88,12 +89,12 @@ function Reviews() {
                                 <div className='review-card d-flex flex-column align-items-center justify-content-center'>
                                     <p className="card-text text-center description-mini">{data.review}</p>
                                     <div className="client  d-flex">
-                                        <div>
+                                        {/* <div>
                                             <img src={data.imgUrl} alt={data.name} className='client-img ' />
-                                        </div>
+                                        </div> */}
                                         <div>
-                                            <h6 className="card-title px-3">{data.name}</h6>
-                                            <p className='d-flex fst-italic description-mini' style={{ color: "#A3A3A9" }}>{data.post}&nbsp;<a href="#" className='nav-link text-primary'> @{data.company}</a></p>
+                                            <h6 className="card-title px-3 text-center">{data.name}</h6>
+                                            <p className='d-flex text-center fst-italic description-mini' style={{ color: "#A3A3A9" }}>{data.post}&nbsp;<a href="#" className='nav-link text-primary'> @{data.company}</a></p>
                                         </div>
                                     </div>
                                 </div>
