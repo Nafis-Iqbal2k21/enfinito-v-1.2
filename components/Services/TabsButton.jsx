@@ -7,7 +7,7 @@ const TabsButton = ({ item, handleTab, currentTab }) => {
           }`}
           onClick={() => handleTab(item.id)}
         >
-          {item.title}
+          {item.btnText ? item.btnText : item.title}
         </button>
       </div>
     );

@@ -6,7 +6,7 @@ function Services() {
   const servicesData = [
     {
       title: "Graphic, Motion & CGI Design",
-      slug: "graphic-motion-design" , 
+      slug: "graphic-motion-cgi-design" , 
       description: "Craft visually compelling and dynamic designs that captivate your audience, conveying your brand's message effectively through both static and animated visuals.",
       imageUrl: "/assets/images/graphic_motion.png",
       alt: "graphic, motion & cgi Design"

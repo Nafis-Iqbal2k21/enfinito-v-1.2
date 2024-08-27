@@ -9,7 +9,7 @@ function CaseStudyCard({ otherClassName, url, title, alt, description, link }) {
           <div className='position-relative mx-auto'>
             <img src={url} alt={alt} className='img-fluid rounded-top-4 case-img' />
           </div>
-          <h5 className='card-title p-3 pb-0 fw-semibold'>{title}</h5>
+          <h6 className='card-title p-3 pb-0 fw-semibold'>{title}</h6>
           <p className='card-text p-3 description-mini m-0'>{description}</p>
         </div>
       </Link>

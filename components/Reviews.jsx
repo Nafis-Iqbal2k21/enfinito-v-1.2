@@ -86,6 +86,7 @@ function Reviews() {
                         reviewsData.map((data, index) => <SwiperSlide className='mb-3' key={index}>
                             <div className="mb-4 py-3">
                                 <div className='review-card d-flex flex-column align-items-center justify-content-center'>
+                                    <p className="card-text text-center description-mini">{data.review}</p>
                                     <div className="client  d-flex">
                                         <div>
                                             <img src={data.imgUrl} alt={data.name} className='client-img ' />
@@ -95,7 +96,6 @@ function Reviews() {
                                             <p className='d-flex fst-italic description-mini' style={{ color: "#A3A3A9" }}>{data.post}&nbsp;<a href="#" className='nav-link text-primary'> @{data.company}</a></p>
                                         </div>
                                     </div>
-                                    <p className="card-text text-center description-mini">{data.review}</p>
                                 </div>
                             </div>
                         </SwiperSlide>

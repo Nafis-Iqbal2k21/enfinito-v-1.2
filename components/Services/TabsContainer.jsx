@@ -45,11 +45,13 @@ function TabsContainer({ serviceData }) {
                 <div className="col-12 col-md-8 mb-4">
                     <h2 className="mb-3">{selectedService.title}</h2>
                     <p>{selectedService.description}</p>
-                    <h4 className="h5 fw-semibold">Our Features</h4>
+                    {
+                        selectedService.keyServices && <h4 className="h5 fw-semibold">Our Features</h4>
+                    }
                     <ul className="list">
                         {
-                            selectedService.keyServices.map((data, index) =>
-                                <li key={index} className="list-group-item list-group-item-light text-white">{index+1}. {data.title} - {data.description}</li>
+                            selectedService.keyServices && selectedService.keyServices.map((data, index) =>
+                                <li key={index} className="list-group-item list-group-item-light text-white">{index + 1}. {data.title} - {data.description}</li>
                             )
                         }
                     </ul>

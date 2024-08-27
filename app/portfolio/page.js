@@ -1,5 +1,5 @@
 import MeetingChat from '@/components/MeetingChat';
-import CaseStudy from '@/components/porfolio/CaseStudy';
+import CaseStudy from '@/components/portfolio/CaseStudy';
 import React from 'react'
 
 function page() {

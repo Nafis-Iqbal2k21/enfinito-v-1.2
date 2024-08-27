@@ -13,8 +13,10 @@ function SingleCaseStudy({data}) {
                         {
                             data.content &&
                             data.content.map((data, index) =>
-                                <div className="m-3" key={index}>
-                                    <h6 className="h6">{index + 1}. {data.title}</h6>
+                                <div className="m-3" key={index}>          
+                                    {
+                                        data.title && <h6 className="h6">{index + 1}. {data.title}</h6>
+                                    }
                                     <p className='card-text'>{data.description}</p>
                                 </div>
                             )
